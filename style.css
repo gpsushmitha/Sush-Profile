@@ -1,0 +1,42 @@
+
+.fw-bold {
+    font-weight: 200;
+}
+
+.display-1{
+    font-size: calc(1rem + 0.7vw);
+    font-weight: 500;
+    line-height: 1;
+}
+
+#contactme{
+    color:  rgba(40, 9, 9, 0.833);
+}
+
+.bg-gradient{
+    background-color: brown;
+    
+}
+
+.rounded-lg-3{
+    border-radius: 50%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #e6d3d3, #edb8b8, #a65863);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+     
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
